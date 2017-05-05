@@ -1,0 +1,26 @@
+* Reaction-induced fracturing and rate of serpentinisation
+
+This set of Matlab codes has been developed to compute the development of serpentinisation-induced fractures in olivine, and implement that into a geometrical model to predict bulk serpentinisation rates in olivine aggregates. 
+
+** Installation
+Clone the repository or copy the files into your working folder.
+
+** Usage
+
+Always start by calling the fonction =parameters.m=, which generate a structure containing all the required parameter values for the computation of crack growth and reaction rate. The parameters are computed based on thermodynamic and kinetic data for the serpentinisation reaction, using the ambient pressure and temperature as an input.
+
+The output structure is then passed as a parameter when computing both the cracture growth (script =main.m=) and the bulk reaction progress (function =reaction.m= called by the script =main_reaction.m=).
+
+The scripts =main.m=, =main_reaction.m= and =main_dist.m= should work straight out of the box. The latter uses grain size distribution data from a natural sample (stored in file =K3a_zone3.mat=) and computes the aggregate reaction rate and other grain size statistics during a simulated serpentinistion process.
+
+All the scripts use the function =exportfig.m= to produce a pdf figure, which is what we used (without furhter modifications) in the manuscript.
+
+** Authors
+
+The codes have been written by Benjamin Malvoisin (ISTA-FGSE, Universit\'e de Lausanne, Switzerland) and Nicolas Brantut (Rock and Ice Physics and Seismological Laboratory, University College London, UK).
+
+** Referencing
+
+This set of codes forms the basis of the following manuscript:
+
+Malvoisin B. and N. Brantut, *Control of serpentinization rate by reaction-induced cracking*, submitted to /Earth Planet. Sci. Lett./. 
