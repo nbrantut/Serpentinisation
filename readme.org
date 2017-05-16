@@ -23,4 +23,4 @@ The codes have been written by Benjamin Malvoisin (ISTA-FGSE, Universit\'e de La
 
 This set of codes forms the basis of the following manuscript:
 
-Malvoisin B. and N. Brantut, *Control of serpentinization rate by reaction-induced cracking*, submitted to /Earth Planet. Sci. Lett./. 
+Malvoisin B., N. Brantut and M.-A. Kaczmarek, *Control of serpentinization rate by reaction-induced cracking*, submitted to /Earth Planet. Sci. Lett./. 
